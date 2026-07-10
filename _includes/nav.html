@@ -1,12 +1,9 @@
-<header class="site-header">
-  <nav class="site-nav">
-    <a class="brand" href="{{ '/' | relative_url }}">Padmalaya Pravanjana Rout</a>
-    <div class="links">
-      <a href="{{ '/' | relative_url }}">Home</a>
-      <a href="{{ '/about.html' | relative_url }}">About</a>
-      <a href="{{ '/projects.html' | relative_url }}">Projects</a>
-      <a href="{{ '/blog.html' | relative_url }}">Blog</a>
-      <button id="theme-toggle" aria-label="Toggle dark mode"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
-    </div>
-  </nav>
-</header>
+<nav id="navbar">
+  <a href="{{ '/' | relative_url }}" class="nav-logo">Padmalaya Pravanjana Rout</a>
+  <ul class="nav-links">
+    <li><a href="{{ '/' | relative_url }}#about">About</a></li>
+    <li><a href="{{ '/' | relative_url }}#writing">Writing</a></li>
+    <li><a href="{{ '/projects.html' | relative_url }}">Projects</a></li>
+    <li><a href="{{ '/' | relative_url }}#connect">Connect</a></li>
+  </ul>
+</nav>
