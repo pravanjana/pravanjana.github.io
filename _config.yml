@@ -1,0 +1,9 @@
+title: Pravanjana Rout
+description: Solutions Architect | Cloud | AI | Distributed Systems, based in California, US
+author: Pravanjana Rout
+url: "https://pravanjana.github.io"
+
+plugins:
+  - jekyll-feed
+
+markdown: kramdown
